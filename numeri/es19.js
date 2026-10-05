@@ -10,12 +10,7 @@
 
 function es19(n) {
   // TODO: scrivi qui la tua soluzione
-  if (n % 2 == 0) {
-    return true;
-  }
-  else {
-    return false;
-  }
+  return n % 2 == 0
 }
 
 // --- NON MODIFICARE SOTTO ---
