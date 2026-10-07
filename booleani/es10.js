@@ -10,7 +10,7 @@
 function es10_1(eta, accompagnato) {
   // 1. Restituisci true se eta >= 18 OPPURE (eta >= 16 E accompagnato)
   // TODO: scrivi qui la tua soluzione
-  return eta >= 18 || eta >=16;
+  return eta >= 18 || (eta >=16 && accompagnato);
 }
 
 function es10_2(n) {
