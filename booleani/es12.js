@@ -22,11 +22,9 @@ function es12(ruolo, isLogged) {
   if (ruolo === "viewer" && isLogged){
     return true
   }
-  else {
-    return false
-  }
+  return false
   //return ruolo === "admin" || ruolo === "editor" || (ruolo === "viewer" && isLogged);//
-}
+} 
 
 // --- NON MODIFICARE SOTTO ---
 export { es12 };
