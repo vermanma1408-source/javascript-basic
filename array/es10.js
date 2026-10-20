@@ -24,7 +24,7 @@ function es10_3(arr) {
   // 3. Restituisci true se l'array è uguale al suo inverso (palindromo)
   // Suggerimento: crea una copia con slice(), invertila, confronta
   // TODO: scrivi qui la tua soluzione
-  return  
+  return arr.slice().reverse().join() === arr.join()
 }
 
 // --- NON MODIFICARE SOTTO ---
