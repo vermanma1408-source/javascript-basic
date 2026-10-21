@@ -12,6 +12,8 @@
 
 function es20(arr, elemento) {
   // TODO: scrivi qui la tua soluzione
+  if (arr.lastIndexOf(elemento))
+    return arr.lastIndexOf()
 }
 
 // --- NON MODIFICARE SOTTO ---

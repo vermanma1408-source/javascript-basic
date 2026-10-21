@@ -12,6 +12,7 @@
 function es2_1(obj) {
   // 1. Restituisci obj.nome
   // TODO: scrivi qui la tua soluzione
+  
 }
 
 function es2_2(pers) {

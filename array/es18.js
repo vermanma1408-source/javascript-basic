@@ -14,6 +14,9 @@
 function es18() {
   const parole = ["ciao", "mondo", "javascript"];
   // TODO: scrivi qui la tua soluzione
+  var parole1 = parole.map(s => s.toUpperCase())
+  return parole1.join(" ")
+
 }
 
 // --- NON MODIFICARE SOTTO ---
